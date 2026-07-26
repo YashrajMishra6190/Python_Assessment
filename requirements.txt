@@ -1,0 +1,17 @@
+# Python Bridge Course — 590030329_Py_Assessment.ipynb
+# Packages imported across the 10 lab experiments (Experiment 10: NumPy,
+# Pandas, Matplotlib, Seaborn, Plotly). `sys`, `math`, and `cmath` are part
+# of the Python standard library and need no install.
+#
+#   pip install -r requirements.txt
+
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.18
+
+# To open/run the notebook itself:
+jupyter>=1.0
+notebook>=7.0
+ipykernel>=6.29
