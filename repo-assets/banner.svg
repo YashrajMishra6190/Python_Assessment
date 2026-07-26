@@ -1,0 +1,55 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b16"/>
+      <stop offset="55%" stop-color="#0d1224"/>
+      <stop offset="100%" stop-color="#151033"/>
+    </linearGradient>
+    <radialGradient id="blob1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b7bf6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3b7bf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="55%" stop-color="#3b7bf6"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <filter id="blur1"><feGaussianBlur stdDeviation="60"/></filter>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <g filter="url(#blur1)">
+    <circle cx="140" cy="60" r="220" fill="url(#blob1)"/>
+    <circle cx="1150" cy="260" r="200" fill="url(#blob2)"/>
+    <circle cx="820" cy="30" r="150" fill="url(#blob3)"/>
+  </g>
+
+  <!-- terminal window accent, right side -->
+  <g transform="translate(880,90)">
+    <rect x="0" y="0" width="330" height="150" rx="14" fill="#0d1120" stroke="#ffffff" stroke-opacity="0.12"/>
+    <rect x="0" y="0" width="330" height="30" rx="14" fill="#ffffff" fill-opacity="0.04"/>
+    <circle cx="18" cy="15" r="5" fill="#ff5f57"/>
+    <circle cx="36" cy="15" r="5" fill="#febc2e"/>
+    <circle cx="54" cy="15" r="5" fill="#28c840"/>
+    <text x="20" y="60" font-family="JetBrains Mono, monospace" font-size="13" fill="#22d3ee">&gt;&gt;&gt; python3 lab_manual.py</text>
+    <text x="20" y="84" font-family="JetBrains Mono, monospace" font-size="13" fill="#7ee0a8">10 experiments loaded.</text>
+    <text x="20" y="106" font-family="JetBrains Mono, monospace" font-size="13" fill="#7ee0a8">76 questions ready.</text>
+    <text x="20" y="128" font-family="JetBrains Mono, monospace" font-size="13" fill="#a9b3cf">Ready for review █</text>
+  </g>
+
+  <text x="70" y="118" font-family="Space Grotesk, Arial, sans-serif" font-size="46" font-weight="700" fill="#eef2fb">Python Bridge Course</text>
+  <text x="70" y="160" font-family="Space Grotesk, Arial, sans-serif" font-size="27" font-weight="600" fill="url(#accent)">Interactive Lab Manual</text>
+
+  <text x="70" y="205" font-family="Inter, Arial, sans-serif" font-size="15" fill="#a9b3cf">10 Experiments · 76 Questions · Real Captured Output · Light &amp; Dark Mode</text>
+
+  <text x="70" y="255" font-family="JetBrains Mono, monospace" font-size="13" fill="#7b84a1">Yashraj Mishra · 590030329 · M.Tech CSE · UPES Dehradun</text>
+  <text x="70" y="278" font-family="JetBrains Mono, monospace" font-size="13" fill="#7b84a1">Guided by Vibhu Gautam, Professor, Computer Science</text>
+</svg>
